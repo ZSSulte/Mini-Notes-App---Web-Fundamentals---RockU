@@ -1,4 +1,4 @@
-# Mini Notes
+# Mini Notes App
 
 A full-stack note-taking web application built with **React (Vite)**, **Python (Flask)**, and **PostgreSQL**. Users can register, sign in securely with session cookies, manage personal notes, update their account details, and submit feedback.
 
