@@ -1,0 +1,18 @@
+# Secrets & Environment Variables
+.env
+*.env
+DBcredentials.env
+
+# Python Virtual Environment & Cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node / Frontend Dependencies & Build Output
+node_modules/
+dist/
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db

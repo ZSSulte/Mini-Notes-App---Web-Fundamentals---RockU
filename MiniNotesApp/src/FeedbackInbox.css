@@ -1,0 +1,82 @@
+/* Feedback Inbox CSS */
+.inbox-section {
+  width: 100%;
+}
+
+.inbox-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(440px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+.inbox-card {
+  background-color: #ffffff;
+  border: 1px solid #eaeef5;
+  border-radius: 16px;
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.03);
+  box-sizing: border-box;
+  text-align: left;
+  margin-top: -35px;
+}
+
+.inbox-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.inbox-sender h4 {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.inbox-email {
+  display: block;
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+.inbox-stars {
+  display: flex;
+  gap: 3px;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.star {
+  color: #e2e8f0;
+}
+
+.star.filled {
+  color: #facc15;
+}
+
+.inbox-message {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: #64748b;
+}
+
+.inbox-date {
+  font-size: 0.78rem;
+  color: #94a3b8;
+  margin-top: 2px;
+}
+
+.inbox-subject {
+  margin: 2px 0 -6px 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-top: -10px;
+}
